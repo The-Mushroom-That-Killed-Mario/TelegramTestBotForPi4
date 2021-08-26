@@ -85,7 +85,7 @@ public class Bot extends TelegramLongPollingBot {
 //            SendMessage sendMessage = new SendMessage();
 //            sendMessage.setText(update.getCallbackQuery().getData());
 //            sendMessage.setChatId((update.getCallbackQuery().getMessage().getChatId()).toString());
-
+//для наглядности оставим свитч
             switch (update.getCallbackQuery().getData()) {
                 case "Закрыть меню":
                     DeleteMessage deleteMessage = new DeleteMessage();
@@ -188,6 +188,6 @@ public class Bot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "1995947079:AAH1KzBP1LTlVF7vrjmqA-US9kOigoSOOLw";
+        return "1995947079:AAE7PNRZJOC3Ib7xvEHOR7EeTYnWGgElKI8";
     }
 }
